@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Qaece Almahayni - Student Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f7f7;
+            color: #2b2b2b;
+        }
+
+        /* Color Palette:
+           Teal: #2A9D8F
+           Coral: #E76F51
+           Charcoal: #264653
+        */
+
+        nav {
+            background-color: #264653;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: #f2f7f7;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #E76F51;
+        }
+
+        section {
+            padding: 50px;
+        }
+
+        h1, h2 {
+            color: #2A9D8F;
+        }
+
+        .gallery img {
+            width: 250px;
+            margin: 10px;
+            border-radius: 10px;
+            border: 3px solid #E76F51;
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            border: 2px solid #2A9D8F;
+        }
+
+        input, textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #264653;
+        }
+
+        button {
+            background-color: #2A9D8F;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #E76F51;
+        }
+
+        footer {
+            background-color: #264653;
+            color: #f2f7f7;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation with Bookmarks -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#pictures">Pictures</a>
+        <a href="#videos">Videos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to Qaece Almahayni’s Website</h1>
+        <p>Hello! My name is <strong>Qaece Almahayni</strong>. I am a student who enjoys learning, exploring new ideas, and creating meaningful projects. This website showcases a bit about me, including photos, videos, and a way to get in touch.</p>
+    </section>
+
+    <!-- Pictures Section -->
+    <section id="pictures">
+        <h2>Photo Gallery</h2>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Mountains">
+            <img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d" alt="City Skyline">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Ocean Waves">
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="videos">
+        <h2>Featured Video</h2>
+        <p>Here is a fascinating NASA video about Earth from space:</p>
+        <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/EEIk7gwjgIM"
+                title="NASA Earth Video"
+                frameborder="0"
+                allowfullscreen>
+        </iframe>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Your name">
+
+            <label>Email:</label>
+            <input type="email" placeholder="Your email">
+
+            <label>Message:</label>
+            <textarea rows="4" placeholder="Write your message here"></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Qaece Almahayni — All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
